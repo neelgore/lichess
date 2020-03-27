@@ -1,2 +1,2 @@
-# lichess_study_maker
+# lichess
 Turns chess.com games into lichess studies
