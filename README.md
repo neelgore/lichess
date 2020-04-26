@@ -1,2 +1,2 @@
 # lichess
-Turns chess.com games into lichess studies
+Adds time annotations from a PGN file to a PGN lacking them
