@@ -1,0 +1,18 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.3.27"]
+[White "HelloChesster"]
+[Black "neeltennis"]
+[Result "1/2-1/2"]
+[WhiteElo "1475"]
+[BlackElo "1561"]
+[TimeControl "900+10"]
+[Termination "Game drawn by repetition"]
+[UTCDate "2020.03.28"]
+[UTCTime "01:08:17"]
+[Variant "Standard"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined: Traditional Variation"]
+[Annotator "https://lichess.org/@/neeltennis"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Bg5 Be7 5. Nc3 { Out of book } 5... h6 6. Bh4 c6 7. Qc2 Nbd7 8. e4? { I thought this looked wrong but wasn't sure how to refute it } 8... dxe4 9. Nxe4 Nxe4 10. Qxe4 (10. Bxe7 Qxe7 11. Qxe4 Qb4+ 12. Nd2 Qxb2) 10... f5? (10... g5 { The refutation } 11. Bg3 f5 12. Qxe6 Nf6 (12... f4? 13. Qg6+) 13. Qe5 f4 14. Bxf4 gxf4 15. Qxf4 $19) 11. Bxe7 Qa5+ 12. Nd2?? (12. b4 { Only move }) 12... fxe4 13. Bd6 Nf6 14. Be2 Bd7 15. b4 Qd8? (15... Qg5 { More active }) 16. O-O? (16. Nxe4 { I completely missed this } 16... Nxe4?? 17. Bh5+ g6 18. Bxg6#) 16... Kf7 17. f3 exf3 18. Nxf3 Re8 19. Bd3 Kg8 20. Ne5 (20. Bg6) 20... b5 21. c5 { An uncomfortable, but completely winning, position develops } 21... a5 22. bxa5 Rxa5? (22... Qxa5 23. Rxf6? { Was worried about this for some reason } 23... gxf6 24. Nxd7 { Black is obviously still crushing }) 23. Rf3 Nd5? (23... Qa8) 24. Raf1 Ne7?? { White is better after Nf7 } (24... Nf6 { Shuts down f-file stuff }) 25. Ng6?? { Black is winning again } (25. Nf7 { White is better } 25... Qc8 26. Nxh6+ { Mate in 6 } 26... gxh6 27. Rg3+ Ng6 (27... Kh8 28. Be5#) 28. Rxg6+ Kh8 (28... Kh7 29. Rf7+ Kh8 30. Be5#) 29. Be5+ Kh7 30. Rg3#) 25... Nc8?? { Blunder; Bc7 and Be5 win for white. I was willing to give back material with Rf8+ } (25... Nf5 { Much better }) 26. Rf8+?? { Black is winning again } (26. Bc7 { Now White is crushing } 26... Qg5 (26... Qxc7 27. Rf8+ Rxf8 28. Rxf8+ Kh7 29. Rh8#)  (26... Qf6 27. Rxf6 gxf6 28. Bxa5 $18 { White is up a piece }) 27. Rf8+ Kh7 (27... Rxf8 28. Rxf8+ Kh7 29. Rh8#) 28. Ne5+ g6 29. R1f7#) 26... Rxf8 27. Rxf8+ Qxf8 28. Bxf8 (28. Nxf8 Nxd6 29. Nxd7 $19) 28... Be8 29. Ne7+ Nxe7 (29... Kxf8 { Probably a better try since I don't have to deal with a bishop on d6. I didn't consider this } 30. Nxc8 Rxa2 $19) 30. Bxe7 Bd7 31. Bb1 Ra4 32. Bc2 Rxa2 33. Bb3 Rd2? (33... Rb2 { Just wins the bishop; I was looking for tactics like this on the last move but missed this somehow } 34. Bd1 Rb1 $19) 34. Bd6 Rxd4? (34... Rb2 { Wins the bishop again }) 35. Kf2 Kf7? (35... Rd3 { Wins the bishop AGAIN }) 36. Ke3 Rb4 (36... Rxd6 37. cxd6 $19 { Simplification }) 37. Bd1 Kf6 38. h3 Rb2 39. Bf3 Be8 40. Ke4 { Threatening Be5+ } 40... Ra2? (40... Rb4+ { Much more active rook, and cuts their king off } 41. Ke3 e5 $19) 41. Be5+ Kf7 42. Bh5+ g6 43. Bf3 Ke7 44. Bd6+ Kd7 45. Ke5 { White's king is getting active, but Black is still winning for sure } 45... Rd2 { Looking at a d6 sac to simplify } 46. Bg4 Bf7 (46... Rd5+ { Improvement over immediate Rxd6 sac } 47. Ke4 (47. Kf4 Rxd6 48. cxd6 Kxd6 $19)  (47. Kf6 Rxd6 48. cxd6 Kxd6 49. Bxe6 $19) 47... Rxd6 48. cxd6 Kxd6 $19)  (46... Rxd6 47. cxd6 Bf7 48. Kf6 Bg8 49. Kg7 b4 50. Kxg8 Kxd6 $19 { Winning, but unnecessary }) 47. Kf6 Rxd6? (47... h5 48. Bf3 Rxd6 49. cxd6 Bg8?? (49... Be8 { Only winning move }) 50. Bxc6+ { Wow } 50... Kxd6 (50... Kxc6 51. Ke7) 51. Bxb5) 48. cxd6 Be8 (48... Bg8 49. Kg7 Kxd6 50. Kxg8 { Again winning })  (48... h5 $19 { Transposes to above line }) 49. Ke5 h5?? { A lapse in concentration; position is now drawn } (49... Bf7 50. Kf6 Bg8 $19) 50. Bxe6+ Kd8 51. Kd4 Bd7 52. Bf7 Be8 53. Be6 Bd7 54. Bf7 Be8 55. Be6 { 1/2-1/2 The game is a draw. } 1/2-1/2
