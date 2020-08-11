@@ -33,7 +33,7 @@ def get_recent_tpr(username: str, games: int, time_control: str):
     return elo_sum/count
             
 def run():
-    print("TPR is:", get_recent_tpr(input("chess.com username:\n"), int(input("number of games:\n")), input("time control:\n")))
+    print("TPR is:", round(get_recent_tpr(input("chess.com username:\n"), int(input("number of games:\n")), input("time control:\n"))))
 
 if __name__ == "__main__":
     run()
