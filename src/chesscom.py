@@ -23,6 +23,10 @@ def get_recent_tpr(username: str, games: int, time_control: str):
         
     now = str(datetime.now())
     pgns = get_chesscom_games(username, now[0:4], now[5:7])
+    if now[5:7] != "01":
+        pgns += get_chesscom_games(username, now[0:4], "0" + str(int(now[5:7]) - 1))
+    else:
+        pgns += get_chesscom_games(username, str(int(now[0:4]) - 1), "12")
     count = 0
     elo_sum = 0
     wins = 0
@@ -43,7 +47,7 @@ def get_recent_tpr(username: str, games: int, time_control: str):
 def run():
     answer = get_recent_tpr(input("chess.com username:\n"), int(input("number of games:\n")), input("time control:\n"))
     print("Performance rating is:", round(answer[0]))
-    print(f"{answer[1]} wins, {answer[2]} draws, {answer[3]} losses")
+    print(f"{answer[1]}W {answer[2]}D {answer[3]}L")
 
 if __name__ == "__main__":
     run()
