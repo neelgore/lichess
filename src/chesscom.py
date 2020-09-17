@@ -33,6 +33,8 @@ def get_recent_tpr(username: str, games: int, time_control: str):
     losses = 0
     for pgn in pgns:
         if pgn.tags["TimeControl"] == time_control:
+            if count == 0:
+                last = pgn.tags["White"] if pgn.tags["Black"] == username else pgn.tags["Black"]
             count += 1
             result = tpr_of_game(pgn, username)
             elo_sum += result[0]
@@ -42,10 +44,11 @@ def get_recent_tpr(username: str, games: int, time_control: str):
                 losses += 1
             if count == games: break
     draws = games - wins - losses
-    return (elo_sum/count, wins, draws, losses)
+    return (elo_sum/count, wins, draws, losses, last)
             
 def run():
     answer = get_recent_tpr(input("chess.com username:\n"), int(input("number of games:\n")), input("time control:\n"))
+    print("Last game opponent: " + answer[4])
     print("Performance rating is:", round(answer[0]))
     print(f"{answer[1]}W {answer[2]}D {answer[3]}L")
 
