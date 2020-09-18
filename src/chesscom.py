@@ -48,7 +48,7 @@ def get_recent_tpr(username: str, games: int, time_control: str):
             
 def run():
     answer = get_recent_tpr(input("chess.com username:\n"), int(input("number of games:\n")), input("time control:\n"))
-    print("Last game opponent: " + answer[4])
+    print("Last opponent: " + answer[4])
     print("Performance rating is:", round(answer[0]))
     print(f"{answer[1]}W {answer[2]}D {answer[3]}L")
 
